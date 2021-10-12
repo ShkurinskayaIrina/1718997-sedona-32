@@ -1,0 +1,245 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.page-header {
+  color: #000000;
+  background: #FFFFFF;
+}
+
+.navigation-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-index {
+  color: #000000;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.divider-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.divider-description {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.advices-item:nth-child(odd),
+.advantages-item:nth-child(even) {
+  background: #83b3d31f;
+}
+
+.advantages-item-main {
+  background: #83B3D3;
+  color: #FFFFFF;
+}
+
+.advices-title,
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.interest {
+  background: #FFFFFF;
+}
+
+.interest-title {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.interest-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #756257;
+}
+
+.interest-button {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.newsletter-button {
+  font-size: 20px;
+  line-height: 26px;
+  background-color:#83B3D3;
+}
+
+.to-favourites-button {
+  background-color:#83B3D3;
+}
+.in-favourites-button {
+  background-color:#7DB54F;;
+}
+
+
+
+.inner-header-container {
+  background-color: #7195f8;
+  background-image: url("../images/background-catalog.jpg");
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  width: 1200px;
+  height: 408px;
+}
+
+.inner-header {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.hotels-filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.control-label {
+  line-height: 23px;
+}
+
+.hotels-catalog {
+  font-family: "PT Sans", sans-serif;
+  /* font-size: 18px; */
+  line-height: 23px;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.hotel-card-link {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  color:  #000000;
+  text-decoration: none;
+}
+
+.hotel-card-type {
+  font-style: normal;
+}
+
+.hotel-card-price {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hotel-card-rating {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  font-style: normal;
+  text-transform: uppercase;
+  color:  #333333;
+}
+
+.pagination-show-more {
+  font-size: 20px;
+line-height: 26px;
+background-color: #83B3D3;
+}
+
+.pagination-link {
+  /* color: #FFFFFF;
+  background-color: #000000;
+   */
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+
+}
+.page-footer {
+  font-size: 22px;
+  line-height: 26px;
+
+}
+
+.footer-newsletter-main {
+  background-color: #7195f8;
+  background-image: url("../images/background-newsletter.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 411px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.footer-newsletter-inner {
+  text-align: center;
+}
+
+.newsletter-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.footer-contacts-phone {
+  font-family: "PT Sans", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:  #000000;
+}
